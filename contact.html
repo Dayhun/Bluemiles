@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blue Miles Coffee_Contact</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <!-- CONTACT PAGE -->
+        <header class="ct-header">
+            <section>
+                <h1>BLUE MILES COFFEE</h1>
+            </section>
+        </header>
+        <nav class="ct-nav">
+            <ul>
+                <li><a href="index.html">HomePage</a></li>
+                <li><a href="coffee.html">Coffee</a></li>
+                <li><a href="cookie.html">Cookie</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+        <main class="ct">
+            <form action="thankyou.html" method="post">
+                <fieldset>
+                    <legend>Feedback</legend>
+                    <fieldset class="personal-form">
+                        <legend>Personal Information</legend>
+                        <aside>
+                            <label for="name">Name : </label>
+                            <article>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    id="name"
+                                    placeholder="First Name"
+                                />
+                                <input
+                                    type="text"
+                                    name="lName"
+                                    id="lName"
+                                    placeholder="Last Name"
+                                />
+                            </article>
+                        </aside>
+                        <aside>
+                            <label for="age">Age :</label>
+                            <select name="age" id="age">
+                                <option value="none" disabled selected>
+                                    Select your age
+                                </option>
+                                <optgroup label="Under 18">
+                                    <option value="under 10">under 10</option>
+                                    <option value="11-15">11-15</option>
+                                    <option value="16-18">16-18</option>
+                                </optgroup>
+                                <optgroup label="Adult">
+                                    <option value="19-25">19-25</option>
+                                    <option value="26-30">26-30</option>
+                                    <option value="31-35">31-35</option>
+                                    <option value="36-40">36-40</option>
+                                    <option value="41-50">41-50</option>
+                                    <option value="51+">51 or older</option>
+                                </optgroup>
+                            </select>
+                        </aside>
+                        <aside>
+                            <label for="email">Email<span>*</span> :</label>
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="Email"
+                                required
+                            />
+                        </aside>
+                        <aside>
+                            <label for="phone"
+                                >Phone<span>*</span> (010-XXX-XXXX) :</label
+                            >
+                            <input
+                                type="text"
+                                name="phone"
+                                id="phone"
+                                placeholder="Phone Number"
+                                required
+                            />
+                        </aside>
+                        <aside>
+                            <label for="visited-date"
+                                >Visited Date<span>*</span> :</label
+                            >
+                            <input
+                                type="date"
+                                id="visited-date"
+                                name="visited-date"
+                                required
+                            />
+                        </aside>
+                        <aside>
+                            <label for="visited-time"
+                                >Visited Time<span>*</span> :</label
+                            >
+                            <input
+                                type="time"
+                                name="visited-time"
+                                id="visited-time"
+                                required
+                            />
+                        </aside>
+                        <aside>
+                            <label for="visited-number"
+                                >The Number Of Visitors
+                            </label>
+                            <input
+                                type="number"
+                                name="visited-number"
+                                id="visited-number"
+                                placeholder="Enter the total number of visitors."
+                            />
+                        </aside>
+                    </fieldset>
+                    <fieldset class="service-form">
+                        <legend>Service Feedback</legend>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Feedback</th>
+                                    <th>Very Satisfied</th>
+                                    <th>Satisfied</th>
+                                    <th>Dissatisfied</th>
+                                    <th>Very Dissatisfied</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Taste</td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="taste"
+                                            id="taste4"
+                                            value="4"
+                                        />
+                                    </td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="taste"
+                                            id="taste3"
+                                            value="3"
+                                        />
+                                    </td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="taste"
+                                            id="taste2"
+                                            value="2"
+                                        />
+                                    </td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="taste"
+                                            id="taste1"
+                                            value="1"
+                                        />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Cleanliness</td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="cleanliness"
+                                            id="cleanliness4"
+                                            value="4"
+                                        />
+                                    </td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="cleanliness"
+                                            id="cleanliness3"
+                                            value="3"
+                                        />
+                                    </td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="cleanliness"
+                                            id="cleanliness2"
+                                            value="2"
+                                        />
+                                    </td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="cleanliness"
+                                            id="cleanliness1"
+                                            value="1"
+                                        />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Kindness</td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="kindness"
+                                            id="kindness4"
+                                            value="4"
+                                        />
+                                    </td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="kindness"
+                                            id="kindness3"
+                                            value="3"
+                                        />
+                                    </td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="kindness"
+                                            id="kindness2"
+                                            value="2"
+                                        />
+                                    </td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="kindness"
+                                            id="kindness1"
+                                            value="1"
+                                        />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Cost</td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="cost"
+                                            id="cost4"
+                                            value="4"
+                                        />
+                                    </td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="cost"
+                                            id="cost3"
+                                            value="3"
+                                        />
+                                    </td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="cost"
+                                            id="cost2"
+                                            value="2"
+                                        />
+                                    </td>
+                                    <td>
+                                        <input
+                                            type="radio"
+                                            name="cost"
+                                            id="cost1"
+                                            value="1"
+                                        />
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <aside>
+                            <label for="message">Message :</label>
+                            <textarea
+                                name="message"
+                                id="message"
+                                placeholder="Leave the message"
+                            ></textarea>
+                        </aside>
+                    </fieldset>
+                    <article>
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Clear" />
+                    </article>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <p>
+                LIM DONG HYUN | <a href="tel:+050714591016">0507-1459-1016</a> |
+                <a href="mailto:bluemilescoffee@naver.com"
+                    >bluemilescoffee@naver.com</a
+                >
+            </p>
+            <p>
+                Copyright &copy; 2019
+                <a
+                    href="https://www.instagram.com/bluemilescoffee/"
+                    target="_blank"
+                    ><span>BLUE MILES COFFEE</span></a
+                >
+            </p>
+        </footer>
+    </body>
+</html>
